@@ -79,6 +79,10 @@ body
     {
         display: flex;
         flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 30px;
+
     }
     .imagem-desc
     {
@@ -86,4 +90,40 @@ body
         flex-direction: column;
         margin-bottom: 30px;
     }
+}
+
+.habilidades
+{
+    margin-bottom: 15px;
+}
+.projetos-desenvolvimento
+{
+    margin-bottom: 15px;
+}
+.projetos-desenvolvidos
+{
+    margin-bottom: 15px;
+}
+.blog-podcast
+{
+    margin-bottom: 30px;
+}
+.blog-podcast ul li:nth-child(odd)
+{
+    background-color: #EEF4D4;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1C0221;
+    height: 100px;
+    font-size: 2.0rem;
+    justify-content: space-around;
+}
+footer em
+{
+    font-size: 1.0rem;
 }
